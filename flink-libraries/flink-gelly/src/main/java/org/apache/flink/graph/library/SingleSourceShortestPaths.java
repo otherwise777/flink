@@ -29,7 +29,7 @@ import org.apache.flink.graph.spargel.MessageIterator;
 import org.apache.flink.graph.spargel.ScatterFunction;
 
 /**
- * This is an implementation of the Single-Source-Shortest Paths algorithm, using a scatter-gather iteration.
+ *  This is an implementation of the Single-Source-Shortest Paths algorithm, using a scatter-gather iteration.
  */
 @SuppressWarnings("serial")
 public class SingleSourceShortestPaths<K> implements GraphAlgorithm<K, Double, Double, DataSet<Vertex<K, Double>>> {
